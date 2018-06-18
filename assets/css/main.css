@@ -1588,6 +1588,7 @@ img {
 .menu_block .logo_box {
   text-align: center;
   padding: 25px 10px;
+  font-family: 'Krona One', sans-serif;
 }
 .menu_block .side_menu_section {
   margin-top: 50px;
@@ -1616,7 +1617,7 @@ img {
 }
 .menu_block .copy_right p {
   color: #99896e;
-  font-size: 12px;
+  font-size: 6px;
   text-align: center;
   font-weight: 500;
 }
