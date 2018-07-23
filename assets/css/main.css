@@ -1670,30 +1670,6 @@ img {
   color: #dddddd;
 }
 
-.filter_nav {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.filter_nav li {
-  padding: 0;
-  margin-top: 2px;
-}
-.filter_nav li a {
-  display: inline-block;
-  padding: 8px 15px 8px 50px;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-.filter_nav li a:hover {
-  background-color: #99896e;
-  color: #ffffff;
-}
-.filter_nav li.active a {
-  background-color: #99896e;
-  color: #ffffff;
-}
-
 .social_menu {
   margin-top: 100px;
   text-align: center;
