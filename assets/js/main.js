@@ -107,7 +107,7 @@ $(document).ready(function() {
         image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
             titleSrc: function(item) {
-                return item.el.attr('title') + ' &middot; <a class="image-source-link" href="' + item.src  +'" target="_blank">open original</a>';
+                return item.el.attr('title') + ' &middot; <a class="image-source-link" href="' + item.src  +'" </a>';
             }
         },
         zoom: {
@@ -118,6 +118,10 @@ $(document).ready(function() {
             }
         }
     });
+    
+   
+  
+	
 
     /* ==============================================
      OWL CAROUSEL
@@ -143,4 +147,4 @@ $(document).ready(function() {
         offset: '50%'
     });
 
-});
+})
