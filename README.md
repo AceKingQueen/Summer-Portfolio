@@ -1,4 +1,4 @@
-# Summer-Portfolio
+# [Check out my portfolio](https://acekingqueen.github.io/Summer-Portfolio/)
 
 It is time I am honest with you: I am a nerd. I love to learn new things. I am a sit-in-the-front-row-question-asker for life. I love exploring big ideas and paying attention to minute details. Software development checks both these boxes: each letter, each semi-colon, each curly bracket matters when building a rich website.
 
@@ -14,4 +14,6 @@ My absolute favorite part of that scenario would be getting back to the bench to
 
 I like working with people. Also, I like basketball, and grilling, and shoes, and music.
 
-[Check out my portfolio](https://acekingqueen.github.io/Summer-Portfolio/)
+[My LinkedIn](https://www.linkedin.com/in/allisonkingwilliams/) 
+
+[Email Me](aceking@mac.com)
