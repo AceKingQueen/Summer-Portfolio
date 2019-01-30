@@ -26,8 +26,28 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+     
 </head>
 <body>
+
+<script>
+                const pressed = [];
+                const secretCode = 'nelson';
+              
+                window.addEventListener('keyup', (e) => {
+                  console.log(e.key);
+                  pressed.push(e.key);
+                  pressed.splice(-secretCode.length -1, pressed.length - secretCode.length);
+              
+                  if(pressed.join('').includes(secretCode)) {
+                    console.log("DING DING!");
+                    cornify_add();
+                  }
+                  console.log(pressed);
+                });
+              
+</script>    
+
 <div class="loader">
     <div class="loader-outter"></div>
     <div class="loader-inner"></div>
@@ -123,7 +143,7 @@
                                             Just a few words about me
                                         </h3>
                                         <p>
-                                            It is time I am honest with you: I am a nerd. I love to learn new things. I am a sit-in-the-front-row-question-asker for life. I love exploring big ideas and paying attention to minute details. Software development checks both these boxes: each letter, each semi-colon, each curly bracket matters when building a rich website.
+                                            It is time I am honest with you: I am a nerd 🤓. I love to learn new things. I am a sit-in-the-front-row-question-asker for life. I love exploring big ideas and paying attention to minute details. Software development checks both these boxes: each letter, each semi-colon, each curly bracket matters when building a rich website.
                                         </p>
                                         
                                         <p>
@@ -254,6 +274,10 @@
     </div>
 </div>
 
+
+
+<!-- cornify for Nels -->
+<script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 <!-- jquery -->
 <script src="assets/js/jquery.min.js"></script>
 <!-- bootstrap -->
